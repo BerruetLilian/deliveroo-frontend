@@ -1,0 +1,147 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  border-bottom: 1px solid #e9ebeb;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  color: #00cdbd;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.top img {
+  height: 40px;
+}
+
+.restaurant {
+  display: flex;
+  padding: 30px;
+  gap: 40px;
+}
+
+.restaurant img {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.restaurant h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.restaurant p {
+  color: #868a8a;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+main {
+  background-color: #f3f5f5;
+}
+
+main .container {
+  display: flex;
+}
+
+.cart {
+  position: sticky;
+  top: 0;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 22px 24px 0 rgba(46, 51, 51, 0.07);
+}
+
+.cart button {
+  background: #bac3c3;
+  color: #8b9a9b;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+}
+
+.empty {
+  color: #868a8a;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.menu {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.menu img {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+
+.menu h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.menu h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+.meals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.meal {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  align-items: center;
+  height: 160px;
+  min-width: 300px;
+  width: calc(50% - 30px);
+}
+
+.meal:hover {
+  box-shadow: 0 22px 24px 0 rgba(46, 51, 51, 0.07);
+}
+
+.meal-text {
+}
+
+.meal p {
+  color: #808484;
+  height: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meal-infos {
+  margin-top: 10px;
+}
+.meal-infos span:first-child {
+  color: #808484;
+}
