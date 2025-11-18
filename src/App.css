@@ -1,0 +1,38 @@
+@import "./assets/fonts/stylesheet.css";
+
+body {
+  font-family: "IBM Plex Sans";
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 32px;
+  color: #2e3333;
+  margin: 30px 0;
+  font-family: "Stratos Deliveroo Web";
+}
+
+h2 {
+  font-size: 24px;
+  color: #2e3333;
+  margin: 25px 0;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  color: #2e3333;
+  margin-bottom: 10px;
+}
+
+.spinner-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

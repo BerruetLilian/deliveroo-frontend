@@ -1,0 +1,31 @@
+.category menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category article {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  width: calc(50% - 10px);
+  padding: 20px;
+  gap: 20px;
+}
+.category article p {
+  color: #868a8a;
+  margin-bottom: 10px;
+}
+
+.category article img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.category > menu > article > div > div {
+  display: flex;
+  gap: 15px;
+}

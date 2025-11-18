@@ -1,0 +1,61 @@
+.container .basket {
+  width: 350px;
+  max-height: calc(100vh - 300px);
+  background-color: white;
+  flex-shrink: 0;
+  margin-top: 30px;
+  border-radius: 4px;
+  box-shadow: 0 22px 24px 0 rgba(46, 51, 51, 0.07);
+  position: sticky;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.basket button {
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px;
+  padding: 15px;
+  font-family: "IBM Plex Sans";
+  font-weight: 700;
+  background: #00cdbd;
+  color: white;
+}
+
+.basket .disable-btn {
+  background: #bac3c3;
+  color: #8b9a9b;
+  cursor: not-allowed;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #868a8a;
+}
+
+.achat p:last-child {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.achat p:nth-last-child(2) {
+  border-bottom: 1px solid #d1d7d7;
+}
+
+.items {
+  max-height: calc(100vh - 300px);
+  overflow: auto;
+  border-bottom: 1px solid #d1d7d7;
+  margin: 10px;
+}
+
+.totaux {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}

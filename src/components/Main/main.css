@@ -1,0 +1,8 @@
+main {
+  background-color: #f3f5f5;
+  padding-bottom: 20px;
+}
+main .container {
+  display: flex;
+  gap: 30px;
+}
